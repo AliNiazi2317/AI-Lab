@@ -1,10 +1,10 @@
-#TAsk No 01
+
 network = {
     "Ali": ["Bilal", "Sara"],
     "Bilal": ["Ali", "Zara"],
     "Sara": ["Ali", "Omar"],
     "Zara": ["Bilal", "Hira"],
-    "Omar": ["Sara"],
+    "Omar": ["Sara", "Hira"],
     "Hira": ["Zara"]
 }
 
