@@ -37,6 +37,7 @@ def ucs_cheapest_route(graph, start, goal):
                 queue.append((new_cost, new_path))
 
     print("Total routes explored:", len(explored))
+    print("Search completed successfully.")
     return None, None
 
 
