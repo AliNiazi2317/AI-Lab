@@ -23,6 +23,7 @@ def ucs_cheapest_route(graph, start, goal):
 
         visited.append(city)
         explored.append((path, cost))
+
         print("Explored path:", path, "| Cost:", cost)
 
         if city == goal:
